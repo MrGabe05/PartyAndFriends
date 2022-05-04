@@ -1,0 +1,109 @@
+#####################
+#                   #
+#     Messages      #
+#                   #
+#####################
+Messages:
+  # Friends messages
+  FriendsLimitReached: "&6You have reached your friends limit!"
+  InsertNumericalValue: "&cPlease insert a numerical value!"
+  InsertValue: "&cPlease insert a value!"
+  NewFriend: "&a%player% is now your friend"
+  NoFriends: "&cYou don't have any friends. &6Use /friends add <player> to add friends"
+  NoLongerFriends: "&c%player% and you are no longer friends"
+  Notifications: "&bYou have %notifications% new notifications check your friend list to check new friends!"
+  NotNotifications: "&cYou don't have any new notification!"
+  OwnRequest: "&cYou can't send a request to yourself!"
+  OwnRequestDeclined: "&cYou has declined the %player% request"
+  OwnSeen: "&6You are online"
+  PageNotFound: "&cPage not found!"
+  PlayerIsOnline: "&a%player% is online"
+  PlayerIsOffline: "&c%player% is offline"
+  PlayerLastSeen: "&fPlayer last seen %time% %time_unit% ago"
+  PlayerLogOut: "&6%player% has disconnected"
+  PlayerIsFriend: "&6%player% is already your friend"
+  PlayerNotFriend: "&6%player% isn't your friend"
+  PlayerNotRegistered: "&cPlayer isn't online or isn't registered"
+  RequestDeclined: "&c%player% has decline your friendship request"
+  RequestLimit: "&cAlready exist another friendship request!"
+  RequestSend: "&aYour friendship request has been send"
+  RequestReceived: "&6%player% has sent you a friendship request %action%"
+  MsgFormat: "&e%server% %player% -> &7%msg%"
+  SpyMsgFormat: "&7%sender-server% %sender% -> %receiver-server% %receiver%: %msg%"
+  HelpFriends:
+    - "&7&m----------------------------------------------"
+    - "  &a/friends help &7- &bDisplays this help dialogue"
+    - "  &a/friends list [page] &7- &bDisplays your friend list"
+    - "  &a/friends requests [page] &7- &bDisplays all requests available"
+    - "  &a/friends add <player> &7- &bSends a friendship request to the specified player"
+    - "  &a/friends remove <player> &7- &bRemoves the specified player from your friend list"
+    - "  &a/friends seen <player> &7- &bDisplays the last connection date of this player"
+    - "  &a/friends accept <player> &7- &bAccept the player friendship request"
+    - "  &a/friends decline <player> &7- &bDecline the player friendship request"
+    - "  &a/friends msg <player> <msg> &7 &bSend message to your friend" # For socialspy staff require the permission friends.socialspy
+    - "  &c/friends reload" # Required friends.admin permission
+    - "&7&m----------------------------------------------"
+  FriendList:
+    - "&7&m----------------------------------------------"
+    - "&eTotal friends: &f%total%"
+    - "&f"
+    - "%friends%"
+    - "&f"
+    - "&6&lPage %current% of %max%"
+    - "&7&m----------------------------------------------"
+  RequestList:
+    - "&7&m----------------------------------------------"
+    - "&eTotal requests: &f%total%"
+    - "&f"
+    - "%requests%"
+    - "&f"
+    - "&6&lPage %current% of %max%"
+    - "&7&m----------------------------------------------"
+  # Party Messages
+  CantInviteSelf: "&cYou can't invite yourself"
+  HelpParty:
+    - "&7&m----------------------------------------------"
+    - "  &a/party help &7-"
+    - "  &a/party create &7-"
+    - "  &a/party invite <player> &7-"
+    - "  &a/party join <player> &7-"
+    - "  &a/party list [page] &7-"
+    - "  &a/party mute &7-"
+    - "  &a/party promote <player> &7-"
+    - "  &a/party demote <player> &7-"
+    - "  &a/party transfer <player> &7-"
+    - "  &a/party kick <player> &7-"
+    - "  &a/party mute <player> &7-"
+    - "  &a/party shuffle &7-"
+    - "  &a/party disband &7-"
+    - "  &a/party warp &7-"
+    - "&7&m----------------------------------------------"
+
+####################
+#                  #
+#   Placeholders   #
+#                  #
+####################
+
+Placeholders:
+  Accept: "&1[&aACCEPT&1]"
+  AcceptDescription: "&7Click to accept the friendship request"
+  Decline: "&1[&cDECLINE&1]"
+  DeclineDescription: "&7Click to decline the friendship request"
+  Online: "&7%server% &e%name% &8- %online% %last-seen%"
+  Offline: "&e%name% &8- %online% %last-seen%"
+  Request: "&e%name% &8- %online% last-seen%"
+  Year: "year"
+  Years: "years"
+  Month: "month"
+  Months: "months"
+  Week: "week"
+  Weeks: "weeks"
+  Day: "day"
+  Days: "days"
+  Hour: "hour"
+  Hours: "hours"
+  Minute: "minute"
+  Minutes: "minutes"
+  Seconds: "seconds"
+  Few: "a few"

@@ -1,0 +1,48 @@
+#####################
+#                   #
+#     Settings      #
+#                   #
+#####################
+
+Debug: false
+#Sets the sql settings compatible systems are mysql by default and sqlite.
+StorageType: sqlite
+MySQL:
+  Host: "localhost"
+  Port: "3306"
+  Username: "root"
+  Password: "mypassword"
+  Database: "friends"
+
+Friends:
+  # - friends.limit.x
+  # - friends.admin
+  #Specify here your custom limits for each permission, you can add as many as you want
+  #Use the asterisc (*) for unlimited amount of friends
+  Permissions:
+    - 'friends.limit.10'
+    - 'friends.limit.20'
+    - 'friends.limit.*'
+  #Configure the Max results per page for the friends list and request list
+  MaxResultsPerPage: 10
+
+  #Configure how many times the system cleans the decline friendship requests in hours.
+  #DeclinedRequestsPurgeTime: 24 --> 1 day
+  DeclinedRequestsPurgeTime: 1
+Party:
+  # - party.limit.x
+  # - party.admin
+  #Specify here your custom limits for each permission, you can add as many as you want
+  #Use the asterisc (*) for unlimited amount of members
+  Permissions:
+    - 'party.limit.5'
+    - 'party.limit.10'
+    - 'party.limit.*'
+  # On these servers the party system will not work
+  #
+  BlacklistServers:
+    - "survival"
+    - "skyblock"
+    - "kitpvp"
+  RequestClear: 5 # In minutes
+  DisbandTime: 5 # In minutes
